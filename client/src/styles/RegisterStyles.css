@@ -1,0 +1,80 @@
+/* src/styles/RegisterStyles.css */
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+  }
+  
+  .register-form {
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .register-form h3 {
+    text-align: center;
+    color: #1976d2;
+    margin-bottom: 1.5rem;
+  }
+  
+  .ant-form-item-label > label {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .ant-input,
+  .ant-input-password {
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #125ea9;
+  }
+  
+  .m-3 {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    color: #1976d2;
+    font-size: 0.9rem;
+  }
+  
+  .m-3:hover {
+    text-decoration: underline;
+  }
+  
+  .app-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1976d2;
+    margin-bottom: 4px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .form-subtitle {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
